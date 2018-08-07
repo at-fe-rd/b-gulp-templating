@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const expressLayouts = require('express-ejs-layouts');
+
 const app = express();
 const i18n = require('i18n-express');
 const fs = require('fs');

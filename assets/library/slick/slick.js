@@ -15,6 +15,7 @@
 
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
+/* eslint-disable */ 
 (function (factory) {
   if (typeof define === 'function' && define.amd) {
     define(['jquery'], factory);
