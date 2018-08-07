@@ -1,0 +1,90 @@
+/*Font*/
+body {
+  font-family: 'Lato', sans-serif, 'Oswald';
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+// Color
+
+$color-primary: #ed485c;
+$color-font: #696969;
+$color-a: #ffffff;
+$color-b: #242424;
+$color-c: #999999;
+$color-d: #fafafa;
+$color-e: #666666;
+$color-f: #a2a2a2;
+$color-menu: #f8f8f8;
+$color-menu-bg: #121516;
+
+
+/*Padding*/
+$value : 5px;
+
+$sizeList : 0, 1, 2, 3, 4, 5, 6, 7, 8;
+
+@each $size in $sizeList {
+  .pd--#{$size} {
+    padding: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .pd-l--#{$size} {
+    padding-left: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .pd-r--#{$size} {
+    padding-right: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .pd-t--#{$size} {
+    padding-top: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .pd-b--#{$size} {
+    padding-bottom: $value * $size !important;
+  }
+}
+
+// margin
+@each $size in $sizeList {
+  .mg--#{$size} {
+    margin: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .mg-t--#{$size} {
+    margin-top: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .mg-l--#{$size} {
+    margin-left: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .mg-b--#{$size} {
+    margin-bottom: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .mg-r--#{$size} {
+    margin-right: $value * $size !important;
+  }
+}

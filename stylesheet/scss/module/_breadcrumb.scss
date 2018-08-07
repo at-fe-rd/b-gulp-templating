@@ -1,0 +1,35 @@
+.breadcrumb-list {
+  display: flex;
+  font-size: 12px;
+  position: relative;
+  font-weight: 700;
+  line-height: 1.2;
+  .breadcrumb-item {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: $color-a;
+    letter-spacing: 1px;
+    font-weight: 400;
+    .link {
+      color: $color-a;
+    }
+    &:first-child:before {
+      content: ' ';
+      padding: 0 5px 0 0;
+      border-top: 1px solid $color-a;
+      position: absolute;
+      top: 7px;
+      left: -18px;
+      width: 12px;
+    }
+    &:not(:first-child):before {
+      display: inline-block;
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+      color: #d2d2d2;
+      content: "/";
+    }
+  }
+}

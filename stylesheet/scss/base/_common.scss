@@ -1,0 +1,77 @@
+.title-1 {
+  @extend .carousel-text;
+  font-size: 2rem;
+  text-transform: capitalize;
+  line-height: 1;
+}
+.title-2 {
+  font-size: 1.5rem;
+  font-style: regular;
+}
+.desc-1 {
+  @extend .carousel-text;
+  padding-top: 20px;
+  font-size: 0.7rem;
+}
+.desc-2 {
+  padding-top: 20px;
+  font-size: 0.7rem;
+  color: grey;
+}
+.author-1 {
+  @extend .carousel-text;
+  padding-top: 20px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+.author-2 {
+  padding-top: 20px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.just-center {
+  justify-content: center;
+}
+.just-between {
+  justify-content: space-between;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-uppercase {
+  text-transform: uppercase;
+}
+.txt-white {
+  color: $color-a;
+}
+.line-h40 {
+  line-height: 40px;
+}
+.font-60 {
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(rgba(225,225,225,0) 0,rgba(0,0,0,.5) 100%);
+  background: -o-linear-gradient(rgba(225,225,225,0) 0,rgba(0,0,0,.5) 100%);
+  background: linear-gradient(rgba(225,225,225,0) 0,rgba(0,0,0,.5) 100%);
+}
+.separate {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eee;
+}
+.full-wid {
+  width: 100%;
+}
